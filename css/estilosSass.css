@@ -1,0 +1,231 @@
+/* FUENTE SERRANO & MORENATE: font-family: 'Lora', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+/* Fuente texto sin destacar: font-family: 'Raleway', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #454545; }
+
+/* HEADER */
+/* ------------- MAIN --------------*/
+body .main_index .fondo__verde {
+  background: white;
+  background: linear-gradient(0deg, white 0%, #08a787 100%); }
+  @media (min-width: 768px) {
+    body .main_index .fondo__verde {
+      background-image: url(../images/4aquaStrong.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 700px; } }
+  body .main_index .fondo__verde h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    color: white !important;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-shadow: 10px 5px 10px #00000096; }
+    @media (min-width: 768px) {
+      body .main_index .fondo__verde h1 {
+        font-size: 6rem;
+        padding-top: 6rem; } }
+  body .main_index .fondo__verde h2 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: white !important;
+    padding: 1rem;
+    text-shadow: 10px 5px 10px #00000096; }
+    @media (min-width: 768px) {
+      body .main_index .fondo__verde h2 {
+        font-size: 4rem;
+        padding-top: 1rem; } }
+  body .main_index .fondo__verde p {
+    padding-top: 1rem; }
+    @media (min-width: 768px) {
+      body .main_index .fondo__verde p {
+        font-size: 2rem;
+        padding-top: 1rem; } }
+  body .main_index .fondo__verde div {
+    margin-bottom: 2rem; }
+    @media (min-width: 768px) {
+      body .main_index .fondo__verde div {
+        margin-bottom: 5rem; } }
+  body .main_index .fondo__verde .foto_ilustrativa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%; }
+    @media (min-width: 768px) {
+      body .main_index .fondo__verde .foto_ilustrativa {
+        display: none; } }
+
+body .main_index .fondo__gradientverde {
+  background: white;
+  background: linear-gradient(180deg, white 0%, #08a787 100%); }
+
+.main_contacto {
+  background: white;
+  background: linear-gradient(180deg, white 21%, #08a787 100%); }
+  .main_contacto div div form div .textarea_noresize {
+    resize: none; }
+  .main_contacto div .subtitulo_contacto {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .main_contacto div .subtitulo_contacto2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3rem; }
+  .main_contacto div iframe {
+    width: 100%;
+    height: 330px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 6px; }
+
+body .main_rrhh {
+  background: white;
+  background: linear-gradient(180deg, white 21%, rgba(8, 167, 135, 0.812) 100%); }
+  body .main_rrhh div form div div .textarea_noresize {
+    resize: none; }
+  body .main_rrhh div form fieldset div .btn__enviar {
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 10px;
+    transition: transform 0.5s;
+    background-color: #08a787 !important;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    border: none; }
+    body .main_rrhh div form fieldset div .btn__enviar:hover {
+      transform: scale(105%);
+      background-color: #077861;
+      font-weight: bold; }
+
+.centrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.estilo__titulo {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  text-align: center;
+  color: #08a787;
+  text-shadow: 5px 5px 5px #72727296;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 2rem 0 2rem 0; }
+  @media (min-width: 768px) {
+    .estilo__titulo {
+      font-size: 5rem;
+      padding: 4rem 0 4rem 0; } }
+
+.estilo__subtituloVerde {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  text-align: center;
+  color: #08a787;
+  text-shadow: 5px 5px 5px #72727296;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 2rem 0 2rem 0; }
+  @media (min-width: 768px) {
+    .estilo__subtituloVerde {
+      font-size: 3rem;
+      padding: 4rem 0 3rem 0; } }
+
+.estilo__subtituloBlanco {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 5px 5px 5px #72727296;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 2rem 0 2rem 0; }
+  @media (min-width: 768px) {
+    .estilo__subtituloBlanco {
+      font-size: 3rem;
+      padding: 4rem 0 3rem 0; } }
+
+.subtituloVerdeChico {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  text-align: center;
+  color: #08a787;
+  text-shadow: 5px 5px 5px #72727296;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2rem; }
+  @media (min-width: 768px) {
+    .subtituloVerdeChico {
+      font-size: 3rem; } }
+
+.btn__verde {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.5s;
+  background-color: #08a787;
+  border: none; }
+  .btn__verde:hover {
+    transform: scale(105%);
+    background-color: #077861; }
+  .btn__verde a {
+    text-align: center;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none; }
+    .btn__verde a:hover {
+      font-weight: bold; }
+
+.btn__blanco {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.5s;
+  background-color: white;
+  border: none; }
+  .btn__blanco:hover {
+    transform: scale(105%); }
+  .btn__blanco a {
+    text-align: center;
+    color: #077861;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none; }
+    .btn__blanco a:hover {
+      font-weight: bold; }
+
+.main_areas {
+  background: white;
+  background: linear-gradient(180deg, white 21%, #08a787 100%); }
+
+body .main_nosotros div div div img {
+  width: 300px; }
+
+body .main_servicios {
+  background: white;
+  background: linear-gradient(180deg, white 21%, #08a787 100%); }
+  body .main_servicios .padding_servicios {
+    padding-bottom: 100px; }

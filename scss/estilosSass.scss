@@ -1,0 +1,30 @@
+/* FUENTE SERRANO & MORENATE: font-family: 'Lora', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+
+/* Fuente texto sin destacar: font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family:'Raleway', sans-serif; 
+    color: rgb(69, 69, 69);
+}
+
+
+@import "header.scss";
+@import "index.scss";
+@import "contacto.scss";
+@import "rrhh.scss";
+@import "mixins.scss";
+@import "areas.scss";
+@import "nosotros.scss";
+@import "servicios.scss";
